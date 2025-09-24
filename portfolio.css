@@ -180,7 +180,33 @@ body {
 }
 .type h2 {
     width: 141px;
-}  
+} 
+.url {
+     display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: center;
+    width: 120px;
+} 
+.url h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: var(--text-black);
+    text-align: left;
+} 
+.url a {
+     width: 230px;
+    margin-top: 15px;
+    font-family: "Afacad Flux", sans-serif;
+    font-size: 17px;
+    text-align: left;
+    line-height: 25px;
+    color:#676767;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
 .components-detail {
     display: flex;
     align-items: center;

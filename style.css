@@ -156,13 +156,14 @@ body {
     justify-content: center;
     width: 33%;
     height: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     gap: 20px;
 }
 .first-sub2 p {
     font-family: "Afacad Flux", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
+    width: 380px;
 }
 .first-sub2 h3 {
     font-family: "Bebas Neue", sans-serif;
@@ -181,12 +182,17 @@ body {
     font-family: "Bebas Neue", sans-serif;
     font-size: 20px;
     z-index: 10;
+    margin-top: 50px;
+    transition: width 0.2s ease-in-out;
+    transform-origin: left;
 }
 .first-sub2 a:hover {
     background-color: rgba(193, 193, 193, 0.208);
     border: 1px solid rgb(0, 0, 0);
     color: rgb(40, 40, 40);
+    width: 200px;
 }
+
 .first-sub3 {
     display: flex;
     flex-direction: column;
@@ -194,18 +200,19 @@ body {
     justify-content: end;
     width: 33%;
     height: 80%;
-    gap: 5px;
 }
 .first-sub3 h2 {
     font-family: "Bebas Neue", sans-serif;
-    color: rgb(54, 54, 54);
-    font-size: 55px;
+    color: rgba(52, 52, 52, 0.856);
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .first-sub3 h3 {
     font-family: "Bebas Neue", sans-serif;
-    color: rgb(54, 54, 54);
-    font-size: 25px;
-    letter-spacing: 5px;
+    color: rgba(52, 52, 52, 0.856);
+    font-size: 65px;
+    line-height: 60px;
 }
 
 
